@@ -1,56 +1,24 @@
-body {
-	width: 950px;
-	font-family: "Times New Roman", Helvetica, sans-serif;
-	text-align: justify;
-	font-size: 16px;
+.google {
+	color: green;
 }
 
-aside {
-	display: inline-block;
-	width: 300px;
-	padding: 0 8px 0 0;    
-	margin-bottom: 8px;
-	vertical-align: top;
+.linkgroup {
+	color: red;
 }
 
-section {
-	display: inline-block;
-	width: 600px;
-	border-left: 1px solid gray;
-	padding: 0 0 0 10px;
+#second-div p:nth-child(odd) {
+	color: red;
 }
 
-h1 {
-	text-align: center;
+#second-div p:nth-child(even) {
+	color: blue;
+}
+
+#first-div > p::after {
+	content: " - NEW";
+	color: yellow;
+}
+
+p:last-child:hover {
 	font-style: italic;
-	color: orange;
-}
-
-li {
-	color: orange;
-}
-
-li a {
-	color: orange;
-	font-size: 20px;
-	font-style: italic;
-}
-
-table {
-	border-collapse: collapse;
-	width: 100%;
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
-}
-
-td, th {
-	border: 1px solid #ddd;
-	padding: 8px;
-}
-
-thead {
-	background-color: orange;
-}
-
-img {
-	padding: 0 10px 0 0;
 }
